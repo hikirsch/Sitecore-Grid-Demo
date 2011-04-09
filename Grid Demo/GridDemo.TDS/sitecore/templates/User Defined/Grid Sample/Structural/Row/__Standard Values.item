@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {8A17031A-4537-406B-BF2F-9252B19B71A2}
+database: master
+path: /sitecore/templates/User Defined/Grid Sample/Structural/Row/__Standard Values
+parent: {67A43B07-FC8A-4E91-BFE2-A4DA8517B6DF}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {67A43B07-FC8A-4E91-BFE2-A4DA8517B6DF}
+templatekey: Row
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 155
+
+{5530BC82-71F2-44FE-859A-3D6F79F07CED}|{4AD2DE17-705A-46E6-A29C-2061B632617A}|{24A4F850-E1E6-4BE0-A4EF-BC94CA3BB3C0}|{D96952A1-68B1-4012-8D67-5444232E8BD1}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 354
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{6C537EB8-BE3E-42A5-A41E-C7C328392F7D}"><r id="{29085071-D1CC-436F-94EC-336ABA4CC559}" ph="MainPlaceHolder" uid="{9D286387-D295-4EFE-A4FC-D1DFC589FF94}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 56a103f1-c2eb-4458-864e-3242f613b435
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T130539
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56a103f1-c2eb-4458-864e-3242f613b435
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T172235:634378801557421875
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

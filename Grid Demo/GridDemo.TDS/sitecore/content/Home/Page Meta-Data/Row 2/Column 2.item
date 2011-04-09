@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {378C3711-3F56-4B99-91C0-19BFB2FCBF59}
+database: master
+path: /sitecore/content/Home/Page Meta-Data/Row 2/Column 2
+parent: {06AA169B-2587-4E3C-B9E4-80023D357E61}
+name: Column 2
+master: {C86B90C1-C9C5-44D2-AAA3-B239CBD096D1}
+template: {4AD2DE17-705A-46E6-A29C-2061B632617A}
+templatekey: Quarter Column
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 1e23f60b-91f8-4bca-a4c2-f2aae06bcbaa
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T182505
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1e23f60b-91f8-4bca-a4c2-f2aae06bcbaa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T182505:634378839056416016
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

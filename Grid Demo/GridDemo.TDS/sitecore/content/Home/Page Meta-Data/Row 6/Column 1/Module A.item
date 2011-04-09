@@ -1,0 +1,60 @@
+----item----
+version: 1
+id: {3985E8CF-A927-4922-B41D-224A8FD24D47}
+database: master
+path: /sitecore/content/Home/Page Meta-Data/Row 6/Column 1/Module A
+parent: {1C23A0FD-AA9E-49BE-9F16-432E94E74D1C}
+name: Module A
+master: {00000000-0000-0000-0000-000000000000}
+template: {1721C658-8D63-4DCC-8EA3-946F5B1A2ACF}
+templatekey: Free Form HTML
+
+----version----
+language: en
+version: 1
+revision: 3ac0a5d7-056a-448c-862f-61b0d9106ea8
+
+----field----
+field: {D90E94A5-E034-434F-BF97-59BBA793AABF}
+name: Title
+key: title
+content-length: 8
+
+Module A
+----field----
+field: {C19C29CB-F642-4E81-AB6E-95A6002046A5}
+name: FreeFormHTML
+key: freeformhtml
+content-length: 138
+
+<p>
+This is Module A. It is located within The Home &quot;Page Meta-Data&quot; folder in Row 4, Column 1. This is a rich text field. 
+</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T173422
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ac0a5d7-056a-448c-862f-61b0d9106ea8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T193202:634378879229355469
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

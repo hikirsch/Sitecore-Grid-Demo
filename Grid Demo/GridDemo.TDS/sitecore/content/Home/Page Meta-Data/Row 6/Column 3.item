@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {542F1623-B81F-486F-9681-616942186908}
+database: master
+path: /sitecore/content/Home/Page Meta-Data/Row 6/Column 3
+parent: {9E9CCB34-09A0-43DF-8170-318B7D12E13E}
+name: Column 3
+master: {3ADAD997-214D-41E0-93FF-72FB5CAE6C2D}
+template: {5530BC82-71F2-44FE-859A-3D6F79F07CED}
+templatekey: Third Column
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 016959e3-e706-4209-a2fa-2c0a749dd425
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T161250
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+016959e3-e706-4209-a2fa-2c0a749dd425
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T161250:634378759707304688
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {46A69CB5-FBCB-4C31-AFA5-06BC9A7AE598}
+database: master
+path: /sitecore/templates/User Defined/Grid Sample/Structural/Quarter Column/__Standard Values
+parent: {4AD2DE17-705A-46E6-A29C-2061B632617A}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4AD2DE17-705A-46E6-A29C-2061B632617A}
+templatekey: Quarter Column
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 729
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{6C537EB8-BE3E-42A5-A41E-C7C328392F7D}"><r cac="0" cnd="" mvt="" ds="" id="{4B3C0100-C984-441A-B9AC-FA1CA7490E5F}" par="" ph="main-content" uid="{F382656A-F86B-436F-87E5-5383FDF2DBEB}" vbd="0" vbdev="0" vbl="0" vbp="0" vbqs="0" vbu="0" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" l="{6C537EB8-BE3E-42A5-A41E-C7C328392F7D}"><r cac="0" cnd="" mvt="" ds="" id="{4B3C0100-C984-441A-B9AC-FA1CA7490E5F}" par="" ph="main-content" uid="{F382656A-F86B-436F-87E5-5383FDF2DBEB}" vbd="0" vbdev="0" vbl="0" vbp="0" vbqs="0" vbu="0" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4f113c05-99d4-4731-ae45-dcec0a5eca26
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T153424
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f113c05-99d4-4731-ae45-dcec0a5eca26
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T171230:634378795506718750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

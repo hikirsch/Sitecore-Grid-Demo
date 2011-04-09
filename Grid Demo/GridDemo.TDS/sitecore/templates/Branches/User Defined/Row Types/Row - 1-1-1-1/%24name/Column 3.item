@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {475FB988-BF3E-4C8A-90D6-EB99F92A6CBC}
+database: master
+path: /sitecore/templates/Branches/User Defined/Row Types/Row - 1-1-1-1/$name/Column 3
+parent: {230A7B99-9393-43F5-8D3A-7D57434689B8}
+name: Column 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {4AD2DE17-705A-46E6-A29C-2061B632617A}
+templatekey: Quarter Column
+
+----version----
+language: en
+version: 1
+revision: bc9f968e-94a0-41c9-90f9-1b0398f18acd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T132623
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bc9f968e-94a0-41c9-90f9-1b0398f18acd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T132623:634378659834072265
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

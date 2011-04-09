@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {5EA24ECC-1BB4-49B6-B11B-8D3AFED02C82}
+database: master
+path: /sitecore/templates/User Defined/Grid Sample/Structural/Third Column/__Standard Values
+parent: {5530BC82-71F2-44FE-859A-3D6F79F07CED}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {5530BC82-71F2-44FE-859A-3D6F79F07CED}
+templatekey: Third Column
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 354
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{6C537EB8-BE3E-42A5-A41E-C7C328392F7D}"><r id="{34AEFA9F-F222-4ECA-AA4C-C5C928793BED}" ph="MainPlaceHolder" uid="{6705A716-AC1D-4F20-9429-F35215C418E1}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 00958ea4-55c5-4a47-ab3e-9eec1410584d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T153320
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+00958ea4-55c5-4a47-ab3e-9eec1410584d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T153419:634378736591679688
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {789A2AEB-E70A-4614-80E8-973B59444936}
+database: master
+path: /sitecore/templates/User Defined/Grid Sample/Structural/Full Column/__Standard Values
+parent: {D96952A1-68B1-4012-8D67-5444232E8BD1}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D96952A1-68B1-4012-8D67-5444232E8BD1}
+templatekey: Full Column
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 557
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}"><r id="{8EB53CEA-44FE-4902-ABED-DD320FDB6863}" ph="main-content" uid="{32588612-F865-426D-BB5B-DDB6B87CDBCA}" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}"><r id="{8EB53CEA-44FE-4902-ABED-DD320FDB6863}" ph="main-content" uid="{32588612-F865-426D-BB5B-DDB6B87CDBCA}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 256a4e1c-2535-445a-a47f-4c1beab45fc7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110408T171332
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+256a4e1c-2535-445a-a47f-4c1beab45fc7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110408T172606:634378803661162110
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

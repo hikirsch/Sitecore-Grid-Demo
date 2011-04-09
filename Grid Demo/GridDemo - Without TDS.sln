@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridDemo.Web", "GridDemo.Web\GridDemo.Web.csproj", "{93CF4180-E1B7-4F82-9733-B54B460EA9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CF4180-E1B7-4F82-9733-B54B460EA9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CF4180-E1B7-4F82-9733-B54B460EA9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CF4180-E1B7-4F82-9733-B54B460EA9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CF4180-E1B7-4F82-9733-B54B460EA9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB2BC51-DBFD-4085-8E2D-13442C7764D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB2BC51-DBFD-4085-8E2D-13442C7764D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB2BC51-DBFD-4085-8E2D-13442C7764D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8EB2BC51-DBFD-4085-8E2D-13442C7764D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB2BC51-DBFD-4085-8E2D-13442C7764D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB2BC51-DBFD-4085-8E2D-13442C7764D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
