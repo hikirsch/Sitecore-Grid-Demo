@@ -2,13 +2,13 @@
 
 namespace GridDemo.Web.Layouts.Sublayouts.Modules
 {
-	public partial class FreeFormHTML : GridModuleComponent
+	public partial class FreeFormHTML : GridComponent
 	{
 		protected override void OnLoad(System.EventArgs e)
 		{
 			base.OnLoad(e);
 
-			TitleFieldRenderer.Item = FreeFormHTMLRenderer.Item = ModuleItem;
+			TitleFieldRenderer.Item = FreeFormHTMLRenderer.Item = DataItem;
 		}
 	}
 }

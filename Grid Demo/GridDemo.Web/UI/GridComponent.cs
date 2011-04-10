@@ -19,11 +19,6 @@ namespace GridDemo.Web.UI
 		private const string GRID_PLACERHOLDER_ID = "GridPlaceHolder";
 
 		/// <summary>
-		/// The exception message when we were unable to find the GridPlaceHolder from the sublayout.
-		/// </summary>
-		private const string GRID_PLACEHOLDER_EXCEPTION_MESSAGE = "{0} was not found on this sublayout!";
-
-		/// <summary>
 		/// The exception message when we were unable to find either the Data Item assoicated with the Sitecore 
 		/// sublayout, or the Page Meta-Data folder as a child.
 		/// </summary>
@@ -38,7 +33,7 @@ namespace GridDemo.Web.UI
 		/// <summary>
 		/// This is the actual Item of the Grid component we want to render.
 		/// </summary>
-		private Item DataItem { get; set; }
+		protected Item DataItem { get; set; }
 
 		/// <summary>
 		/// When we initialize the page, we essentially need to grab this item's presentation and model layers.
@@ -70,19 +65,18 @@ namespace GridDemo.Web.UI
 			// call our base first
 			base.OnPreRender(e);
 
-			// we need to find the GridPlaceholder so we can put stuff into it
-			PlaceHolder gridPlaceHolder = FindControl(GRID_PLACERHOLDER_ID) as PlaceHolder;
-
-			// if we found the grid placeholder then we should 
-			if (gridPlaceHolder == null)
-				throw new NullReferenceException(string.Format(GRID_PLACEHOLDER_EXCEPTION_MESSAGE, GRID_PLACERHOLDER_ID));
-
 			// if we have a source item, that means we got the actual item that this should be rendering
 			if (DataItem == null) return;
 
-			// Using the place holder on the current grid component, we need recursively
+			// we need to find the GridPlaceholder so we can put stuff into it
+			PlaceHolder gridPlaceHolder = FindControl(GRID_PLACERHOLDER_ID) as PlaceHolder;
+
+			// if we found the grid placeholder then we using the place holder to recursively
 			// add all the child items and render them into this placeholder
-			RenderChildItems(DataItem, gridPlaceHolder);
+			if (gridPlaceHolder != null)
+			{
+				RenderChildItems(DataItem, gridPlaceHolder);
+			}
 		}
 
 		/// <summary>
