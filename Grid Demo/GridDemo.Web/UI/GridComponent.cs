@@ -14,6 +14,12 @@ namespace GridDemo.Web.UI
 	public partial class GridComponent : System.Web.UI.UserControl
 	{
 		/// <summary>
+		/// This constant represents the name of the item that holds all the rows for the grid, this is the start point 
+		/// of where the grid starts rendering.
+		/// </summary>
+		private const string PAGE_META_DATA_FOLDER_NAME = "Page Meta-Data";
+
+		/// <summary>
 		/// This is the ID of the asp:PlaceHolder that's on each of the 
 		/// </summary>
 		private const string GRID_PLACERHOLDER_ID = "GridPlaceHolder";
@@ -22,13 +28,7 @@ namespace GridDemo.Web.UI
 		/// The exception message when we were unable to find either the Data Item assoicated with the Sitecore 
 		/// sublayout, or the Page Meta-Data folder as a child.
 		/// </summary>
-		private const string SUBLAYOUT_IS_NULL_EXCEPTION_MESSAGE = "We couldn't find another data item linked to this item or the '{0}' Item name as a child to this page.";
-
-		/// <summary>
-		/// This constant represents the name of the item that holds all the rows for the grid, this is the start point 
-		/// of where the grid starts rendering.
-		/// </summary>
-		private const string PAGE_META_DATA_FOLDER_NAME = "Page Meta-Data";
+		private const string SUBLAYOUT_IS_NULL_EXCEPTION_MESSAGE = "We couldn't get the data item linked to this Sublayout (is it a sublayout?) on this item.";
 
 		/// <summary>
 		/// This is the actual Item of the Grid component we want to render.
@@ -50,9 +50,9 @@ namespace GridDemo.Web.UI
 
 			// if this isn't a Sublayout, we don't do anything, something probably happened that shouldn't.
 			if (sublayout == null) 
-				throw new NullReferenceException(string.Format(SUBLAYOUT_IS_NULL_EXCEPTION_MESSAGE, PAGE_META_DATA_FOLDER_NAME));
+				throw new NullReferenceException(string.Format(SUBLAYOUT_IS_NULL_EXCEPTION_MESSAGE));
 
-			// Get our data item from the sublayout.
+			// Get our data item from the sublayout
 			DataItem = GetDataItemFromSublayout(sublayout);
 		}
 
@@ -68,7 +68,6 @@ namespace GridDemo.Web.UI
 			// if we have a source item, that means we got the actual item that this should be rendering
 			if (DataItem == null) return;
 
-			// we need to find the GridPlaceholder so we can put stuff into it
 			PlaceHolder gridPlaceHolder = FindControl(GRID_PLACERHOLDER_ID) as PlaceHolder;
 
 			// if we found the grid placeholder then we using the place holder to recursively
@@ -82,10 +81,12 @@ namespace GridDemo.Web.UI
 		/// <summary>
 		/// Using the sublayout, we can pull the actual data Item that we need to render.
 		/// </summary>
-		private static Item GetDataItemFromSublayout(Sublayout sublayout)
+		/// <param name="sublayout">The sublayout we want the data from</param>
+		/// <returns>An Item, either the Page Meta-Data item or the actual data item for the template.</returns>
+		private Item GetDataItemFromSublayout(Sublayout sublayout)
 		{
 			// if there's a Data Source, then that's the item we want,
-			// otherwise it's most likely the Page Meta-Data folder we need to start rendering recursively anyway
+			// otherwise it's most likely the Page Meta-Data folder we need to start rendering recursively
 			return !String.IsNullOrEmpty(sublayout.DataSource)
 			       	? Sitecore.Context.Database
 			       	  	.GetItem(sublayout.DataSource)
@@ -98,6 +99,8 @@ namespace GridDemo.Web.UI
 		/// This function is responsible for pulling the actual Rendering for current device that's loaded and
 		/// essentially 
 		/// </summary>
+		/// <param name="rootItem">The root item in which we need to get the child items to render.</param>
+		/// <param name="placeholder">The place holder in which we want to place the child items into.</param>
 		private void RenderChildItems(Item rootItem, PlaceHolder placeholder)
 		{
 			rootItem.GetChildren()
